@@ -1,0 +1,97 @@
+<div id="wrapper">
+  <div id="contents-header">
+    <div id="contents-header-upper">
+      <div id="contents-header-upper__logo">
+        <%= image_tag('header-logo.svg', height: '30px') %>
+      </div>
+      <div id="contents-header-upper__right">
+        <ul id="contents-header-upper__right-menu">
+          <li class="contents-header-upper__right-menu--list" v-for="content in contents">{{ content.text }}</li>
+        </ul>
+        <div id="contents-header-upper__right-button--entry">
+          <p>エントリー</p>
+        </div>
+      </div>
+    </div>
+    <div id="contents-header-main">
+      <div id="contents-header-main__title--image">
+        <%= image_tag('header-image--teaching.jpeg', height: '300px', width: '535px') %>
+      </div>
+      <div id="contents-header-main__title--main">
+        <h2>人生を変える1ヶ月。</h2>
+      </div>
+      <div id="contents-header-main__title--sub">
+        <p>最高のプログラミングスキルを、最短で。</p>
+      </div>
+      <div id="contents-header-main__deadline--title">
+        <p>{{ title }}</p>
+      </div>
+      <div id="contents-header-main__deadline--term">
+        <p>{{ deadline }}</p>
+      </div>
+      <div id="contents-header-main__deadline--next-title">
+        <p>{{ next.title }}</p>
+      </div>
+      <div id="contents-header-main__deadline--next-term">
+        <p>{{ next.term }}</p>
+      </div>
+      <div id="contents-header-main__button--entry">
+        <p>TECH::CAMPにエントリー</p>
+      </div>
+      <div id="contents-header-main__button--session">
+        <p>説明会＆受講体験 毎日実施中</p>
+      </div>
+    </div>
+  </div>
+  <div id="contents-main">
+    <div id="contents-main__description">
+      <div id="contents-main__description--title">
+        <!--{{ heading }}-->
+      </div>
+      <div id="contents-main__description--body">
+        <!--{{ body }}-->
+      </div>
+    </div>
+    <div id="contents-main__environment">
+      <!-- vue done -->
+    </div>
+    <div id="contents-main__program">
+      <!-- vue done -->
+    </div>
+    <div id="contents-main__support">
+
+    </div>
+    <div id="contents-main__media">
+
+    </div>
+    <div id="contents-main__result">
+
+    </div>
+    <div id="contents-main__course">
+
+    </div>
+    <div id="contents-main__style">
+
+    </div>
+    <div id="contents-main__term">
+
+    </div>
+    <div id="contents-main__join">
+
+    </div>
+    <div id="contents-main__faq">
+
+    </div>
+  </div>
+  <div id="contents-footer">
+    <div id="contents-footer__upper">
+
+    </div>
+    <div id="contents-footer__main">
+
+    </div>
+    <div id="contents-footer__lower">
+
+    </div>
+  </div>
+</div>

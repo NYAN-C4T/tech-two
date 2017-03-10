@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails tech-two: test" uuid="5ca8aa3c-9357-4ef6-baa9-d6984cd5d26a">
+      <database-info product="MySQL" version="5.6.34" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="Rails tech-two: production" uuid="4a656bf3-2f21-4d4c-b98a-fc458be2a2ab">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>tech-two</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffedfefdfe9dfe2df87dffedffddfe5dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+    <data-source name="Rails tech-two: development" uuid="9e6ef9e5-03aa-4dc3-80aa-0e3e6b133b98">
+      <database-info product="MySQL" version="5.6.34" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <user-name>root</user-name>
+      <resolve-scope>tech-two_development:</resolve-scope>
+    </data-source>
+  </component>
+</project>
